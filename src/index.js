@@ -25,8 +25,6 @@ function generatePagination(info) {
     refs.pagination.innerHTML = markup;
 }
 
-
-
 function getDataServer(url) {
     return fetch(url).then(response => response.json());
 }
